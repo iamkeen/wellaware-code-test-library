@@ -1,5 +1,6 @@
 package us.wellaware.library;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public interface Library {
@@ -9,6 +10,8 @@ public interface Library {
     String getBookTitle(long isbn);
 
     List<String> getShelfNames();
+
+    List<Shelf> getShelves();
 
     String findShelfNameForISBN(long isbn);
 

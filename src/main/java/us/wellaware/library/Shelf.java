@@ -13,4 +13,9 @@ public class Shelf
 		this.genre = genre;
 		this.number = number;
 	}
+
+	public String toString()
+	{
+		return genre + " - " + number;
+	}
 }

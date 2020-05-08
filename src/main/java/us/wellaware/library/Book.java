@@ -23,6 +23,10 @@ public class Book implements Comparable<Book>
 		this.pageCount = pageCount;
 	}
 
+	public String toString()
+	{
+		return "" + isbn + "\n" + title + "\n" + author + "\n" + genre + "\n" + publisher + "\n" + publicationYear + "\n" + pageCount + "\n\n";
+	}
 	public int compareTo(Book b)
 	{
 		return this.title.compareTo(b.title);
