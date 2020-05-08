@@ -8,6 +8,7 @@ public class LibrarySimulation implements Library {
     private final int maxShelfSize;
 
     public ArrayList<Shelf> shelves = new ArrayList<Shelf>();
+
     public ArrayList<Long> isbns = new ArrayList<Long>();
 
     public LibrarySimulation(int shelfSize) 
@@ -15,8 +16,7 @@ public class LibrarySimulation implements Library {
         maxShelfSize = shelfSize;
     }
 
-    public boolean addBookToShelf(long isbn, String title, String author, String genre, String publisher,
-                               int publicationYear, int pageCount) {
+    public boolean addBookToShelf(long isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount) {
         if (isbns.contains(isbn)) {
             System.out.println("ISBN " + isbn + " is already in the library!");
             return false;
@@ -49,9 +49,16 @@ public class LibrarySimulation implements Library {
         }
     }
 
-    public String getBookTitle(long isbn) 
-    {
-        throw new UnsupportedOperationException();
+    public String getBookTitle(long isbn) {
+        for (Shelf currentShelf : shelves){
+            for (Book currentBook : currentShelf.books){
+                if (currentBook.isbn == isbn){
+                    return currentBook.title;
+                }
+            }
+        }
+
+        return null;
     }
 
     public List<String> getShelfNames() {

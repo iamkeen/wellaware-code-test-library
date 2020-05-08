@@ -25,15 +25,14 @@ public class Main {
                     if (lineTokens[i].contains("\"")) {
                         int j = i + 1;
                         String temp = lineTokens[i];
-                        while (!lineTokens[j].contains("\"")){
+                        while (!lineTokens[j].contains("\"")) {
                             temp += ("," + lineTokens[j]);
                             j++;
                         }
                         temp += ("," + lineTokens[j]);
                         bookData.add(temp.replace("\"", ""));
                         i = j;
-                    }
-                    else {
+                    } else {
                         bookData.add(lineTokens[i]);
                     }
                 }
@@ -47,7 +46,18 @@ public class Main {
                 String genre = bookData.get(6);
 
                 myLibrary.addBookToShelf(isbn, title, author, genre, publisher, publicationYear, pageCount);
+            }
 
+            List<String> shelves = myLibrary.getShelfNames();
+
+            for (String shelf : shelves) {
+                List<Long> bookIds = myLibrary.getISBNsOnShelf(shelf);
+
+                System.out.println(String.format("Found shelf '%s' with %d books.", shelf, bookIds.size()));
+                for (Long id : bookIds) {
+                    System.out.println(id + " " + myLibrary.getBookTitle(id));
+                }
+                System.out.println();
             }
         }
 	    catch (Exception e)
