@@ -11,6 +11,7 @@ public class Book implements Comparable<Book>
 	public String publisher;
 	public int publicationYear;
 	public int pageCount;
+	public Shelf shelf;
 
 	public Book(long isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount)
 	{

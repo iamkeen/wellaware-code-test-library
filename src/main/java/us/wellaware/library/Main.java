@@ -55,7 +55,7 @@ public class Main {
 
                 System.out.println(String.format("Found shelf '%s' with %d books.", shelf, bookIds.size()));
                 for (Long id : bookIds) {
-                    System.out.println(id + " " + myLibrary.getBookTitle(id));
+                    System.out.println(id + " " + myLibrary.getBookTitle(id) + " by " + myLibrary.getBookAuthor(id));
                 }
                 System.out.println();
             }

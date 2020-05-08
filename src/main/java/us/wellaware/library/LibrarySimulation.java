@@ -7,8 +7,7 @@ import java.util.*;
 public class LibrarySimulation implements Library {
     private final int maxShelfSize;
 
-    public ArrayList<Shelf> shelves = new ArrayList<Shelf>();
-
+    public ArrayList<Genre> genres = new ArrayList<Genre>();
     public ArrayList<Long> isbns = new ArrayList<Long>();
 
     public LibrarySimulation(int shelfSize) 
@@ -21,62 +20,67 @@ public class LibrarySimulation implements Library {
             System.out.println("ISBN " + isbn + " is already in the library!");
             return false;
         }
-        else {
-            isbns.add(isbn);
-            Book book = new Book(isbn, title, author, genre, publisher, publicationYear, pageCount);
-            int lastShelfNumber = 0;
 
-            for (Shelf currentShelf : shelves) {
-                //if suitable shelf is found
-                if (book.genre.equals(currentShelf.genre)) {
-                    if (currentShelf.books.size() < maxShelfSize) {
-                        //add book to shelf
-                        currentShelf.books.add(book);
-                        Collections.sort(currentShelf.books);
-                        return true;
-                    } else {
-                        //keep track of last shelf number of genre
-                        lastShelfNumber = currentShelf.number;
-                    }
-                }
+        isbns.add(isbn);
+        Book book = new Book(isbn, title, author, genre, publisher, publicationYear, pageCount);
+
+        for (Genre currentGenre : genres) {
+            //if genre exists is found
+            if (currentGenre.name.equals(genre)) {
+                    currentGenre.addBook(book, maxShelfSize);
+                    return true;
             }
-
-            //create new genre shelf
-            Shelf newShelf = new Shelf(book.genre, lastShelfNumber + 1);
-            newShelf.books.add(book);
-            shelves.add(newShelf);
-            return true;
         }
+
+
+        //create new genre if does not exist in library
+        Genre newGenre = new Genre(book.genre);
+        newGenre.addBook(book, maxShelfSize);
+        genres.add(newGenre);
+        return true;
     }
 
     public String getBookTitle(long isbn) {
-        for (Shelf currentShelf : shelves){
-            for (Book currentBook : currentShelf.books){
-                if (currentBook.isbn == isbn){
-                    return currentBook.title;
+        for (Genre genre : genres){
+            for (Book book : genre.books){
+                if (book.isbn == isbn){
+                    return book.title;
                 }
             }
         }
 
-        return null;
+        return "";
+    }
+
+    public String getBookAuthor(long isbn) {
+        for (Genre genre : genres){
+            for (Book book : genre.books){
+                if (book.isbn == isbn){
+                    return book.author;
+                }
+            }
+        }
+
+        return "";
     }
 
     public List<String> getShelfNames() {
-        List<String> shelfNames = new ArrayList<String>();
+        List<String> shelfNames = new ArrayList<>();
 
-        for (Shelf shelf : shelves) {
-            shelfNames.add(shelf.toString());
+        for (Genre genre : genres) {
+            for (Shelf shelf : genre.shelves){
+                shelfNames.add(shelf.toString());
+            }
         }
 
         return shelfNames;
     }
 
-    public String findShelfNameForISBN(long isbn) 
-    {
-        for (Shelf currentShelf : shelves) {
-            for (int j = 0; j < currentShelf.books.size(); j++) {
-                if (currentShelf.books.get(j).isbn == isbn) {
-                    return currentShelf.toString();
+    public String findShelfNameForISBN(long isbn) {
+        for (Genre genre : genres) {
+            for (Book book : genre.books) {
+                if (book.isbn == isbn) {
+                    return book.shelf.toString();
                 }
             }
         }
@@ -87,10 +91,12 @@ public class LibrarySimulation implements Library {
     public List<Long> getISBNsOnShelf(String shelfName) {
         List<Long> isbnsOnShelf = new ArrayList<Long>();
 
-        for (Shelf currentShelf : shelves) {
-            if (currentShelf.toString().equals(shelfName)) {
-                for (Book currentBook : currentShelf.books) {
-                    isbnsOnShelf.add(currentBook.isbn);
+        for (Genre genre : genres) {
+            for (Shelf shelf : genre.shelves){
+                if (shelf.toString().equals(shelfName)) {
+                    for (Book currentBook : shelf.books) {
+                        isbnsOnShelf.add(currentBook.isbn);
+                    }
                 }
             }
         }
@@ -102,9 +108,9 @@ public class LibrarySimulation implements Library {
         List<Long> isbnsForGenre = new ArrayList<Long>();
         int limitCount = 0;
 
-        for (Shelf currentShelf : shelves) {
-            if (currentShelf.genre.equals(genre)) {
-                for (Book currentBook : currentShelf.books) {
+        for (Genre currentGenre : genres) {
+            if (currentGenre.name.equals(genre)) {
+                for (Book currentBook : currentGenre.books) {
                     isbnsForGenre.add(currentBook.isbn);
                     limitCount++;
 
@@ -122,10 +128,10 @@ public class LibrarySimulation implements Library {
         List<Long> isbnsForAuthor = new ArrayList<Long>();
         int limitCount = 0;
 
-        for (Shelf currentShelf : shelves) {
-            for (Book currentBook : currentShelf.books) {
-                if (currentBook.author.equals(author)) {
-                    isbnsForAuthor.add(currentBook.isbn);
+        for (Genre genre : genres) {
+            for (Book book : genre.books) {
+                if (book.author.equals(author)) {
+                    isbnsForAuthor.add(book.isbn);
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -142,10 +148,10 @@ public class LibrarySimulation implements Library {
         List<Long> isbnsForPublisher = new ArrayList<Long>();
         int limitCount = 0;
 
-        for (Shelf currentShelf : shelves) {
-            for (Book currentBook : currentShelf.books) {
-                if (currentBook.publisher.equals(publisher)) {
-                    isbnsForPublisher.add(currentBook.isbn);
+        for (Genre genre : genres) {
+            for (Book book : genre.books) {
+                if (book.publisher.equals(publisher)) {
+                    isbnsForPublisher.add(book.isbn);
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -162,10 +168,10 @@ public class LibrarySimulation implements Library {
         List<Long> isbnsPublishedAfterYear = new ArrayList<Long>();
         int limitCount = 0;
 
-        for (Shelf currentShelf : shelves) {
-            for (Book currentBook : currentShelf.books) {
-                if (currentBook.publicationYear > publicationYear) {
-                    isbnsPublishedAfterYear.add(currentBook.isbn);
+        for (Genre genre : genres) {
+            for (Book book : genre.books) {
+                if (book.publicationYear > publicationYear) {
+                    isbnsPublishedAfterYear.add(book.isbn);
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -182,10 +188,10 @@ public class LibrarySimulation implements Library {
         List<Long> isbnsWithMinimumPagecount = new ArrayList<Long>();
         int limitCount = 0;
 
-        for (Shelf currentShelf : shelves) {
-            for (Book currentBook : currentShelf.books) {
-                if (currentBook.pageCount >= minimumPageCount) {
-                    isbnsWithMinimumPagecount.add(currentBook.isbn);
+        for (Genre genre : genres) {
+            for (Book book : genre.books) {
+                if (book.pageCount >= minimumPageCount) {
+                    isbnsWithMinimumPagecount.add(book.isbn);
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -196,10 +202,5 @@ public class LibrarySimulation implements Library {
         }
 
         return isbnsWithMinimumPagecount;
-    }
-
-    public List<Shelf> getShelves()
-    {
-        return shelves;
     }
 }

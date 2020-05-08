@@ -9,9 +9,9 @@ public interface Library {
 
     String getBookTitle(long isbn);
 
-    List<String> getShelfNames();
+    String getBookAuthor(long isbn);
 
-    List<Shelf> getShelves();
+    List<String> getShelfNames();
 
     String findShelfNameForISBN(long isbn);
 
