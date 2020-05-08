@@ -1,7 +1,5 @@
 package us.wellaware.library;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.*;
 
 /*
@@ -11,7 +9,7 @@ import java.util.*;
                 - isbn, title, author, genre, publisher, publication year, page count
 */
 
-public class Book
+public class Book implements Comparable<Book>
 {
 	public long isbn;
 	public String title;
@@ -32,5 +30,8 @@ public class Book
 		this.pageCount = pageCount;
 	}
 
-	//TODO: equals for book's title
+	public int compareTo(Book b)
+	{
+		return this.title.compareTo(b.title);
+	}
 }
