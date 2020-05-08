@@ -2,13 +2,6 @@ package us.wellaware.library;
 
 import java.util.*;
 
-/*
-    - Need:
-        - Book object
-            - contains data regarding book
-                - isbn, title, author, genre, publisher, publication year, page count
-*/
-
 public class Book implements Comparable<Book>
 {
 	public long isbn;

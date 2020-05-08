@@ -17,8 +17,10 @@ public class Main {
                 "McGraw-Hill", 1979, 180);
         myLibrary.addBookToShelf(609600672, "Dave Barry is not taking this sitting down!", "Barry, Dave",
                 "Humor", "Crown Publishers", 2000, 229);
+        myLibrary.addBookToShelf(345404475, "Do Androids Dream of Electric Sheep?", "Dick, Philip",
+                "Science Fiction", "Ballantine Books", 1996, 244);
 
-        List<String> shelves = myLibrary.getShelfNames();
+        /*List<String> shelves = myLibrary.getShelfNames();
 
         for (String shelf : shelves) {
             List<Long> bookIds = myLibrary.getISBNsOnShelf(shelf);
@@ -29,6 +31,6 @@ public class Main {
                 String title = myLibrary.getBookTitle(isbn);
                 System.out.println(String.format("   %s", title));
             }
-        }
+        }*/
     }
 }

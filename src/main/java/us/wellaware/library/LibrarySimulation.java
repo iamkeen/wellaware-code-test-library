@@ -8,8 +8,8 @@ public class LibrarySimulation implements Library
 {
     private final int maxShelfSize;
 
-    private ArrayList<Shelf> shelves = new ArrayList<Shelf>();
-    private ArrayList<Long> isbns = new ArrayList<Long>();
+    public ArrayList<Shelf> shelves = new ArrayList<Shelf>();
+    public ArrayList<Long> isbns = new ArrayList<Long>();
 
     public LibrarySimulation(int shelfSize) 
     {
@@ -28,7 +28,6 @@ public class LibrarySimulation implements Library
         {
             isbns.add(isbn);
             Book book = new Book(isbn, title, author, genre, publisher, publicationYear, pageCount);
-            boolean shelfExists = false;
             int lastShelfNumber = 0;
 
             for (int i = 0; i < shelves.size(); i++)
@@ -43,7 +42,6 @@ public class LibrarySimulation implements Library
                         //add book to shelf
                         currentShelf.books.add(book);
                         Collections.sort(currentShelf.books);
-                        shelfExists = true;
                         return true;
                     }
                     else
@@ -57,6 +55,7 @@ public class LibrarySimulation implements Library
             Shelf newShelf = new Shelf(book.genre, lastShelfNumber + 1);
             newShelf.books.add(book);
             shelves.add(newShelf);
+            System.out.println("New shelf created: " + newShelf.genre + " - " + newShelf.number);
             return true;
         }
     }
@@ -104,5 +103,15 @@ public class LibrarySimulation implements Library
     public List<Long> getISBNsWithMinimumPageCount(int minimumPageCount, int limit) 
     {
         throw new UnsupportedOperationException();
+    }
+
+    public ArrayList<Shelf> getShelves()
+    {
+        return shelves;
+    }
+
+    public ArrayList<Long> getISBNs()
+    {
+        return isbns;
     }
 }

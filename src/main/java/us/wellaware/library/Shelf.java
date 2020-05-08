@@ -2,15 +2,6 @@ package us.wellaware.library;
 
 import java.util.*;
 
-/*
-- Shelf object
-    - contains 
-        - genre (Science fiction)
-        - number (1)
-        - books objects
-        - counter of books on shelf
-*/
-
 public class Shelf
 {
 	public ArrayList<Book> books = new ArrayList<Book>();
