@@ -5,17 +5,6 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import java.util.*;
 
 /*
-    - Need:
-        - Book object
-            - contains data regarding book
-                - isbn, title, author, genre, publisher, publication year, page count
-        - Shelf object
-            - contains 
-                - genre (Science fiction)
-                - number (1)
-                - books objects
-                - counter of books on shelf
-
     - Book ISBN numbers are unique. There cannot be two books with the same ISBN number, so an attempt to add a book to a shelf when that ISBN number already exists in the library should fail.
         - check if ISBN already exists in Library
             - if true
@@ -44,6 +33,9 @@ public class LibrarySimulation implements Library
 {
     private final int maxShelfSize;
 
+    private ArrayList<Shelf> shelves = new ArrayList<Shelf>();
+    private ArrayList<Long> isbns = new ArrayList<Long>();
+
     public LibrarySimulation(int shelfSize) 
     {
         maxShelfSize = shelfSize;
@@ -52,7 +44,45 @@ public class LibrarySimulation implements Library
     public boolean addBookToShelf(long isbn, String title, String author, String genre, String publisher,
                                int publicationYear, int pageCount) 
     {
-        throw new UnsupportedOperationException();
+        if (isbns.contains(isbn))
+        {
+            System.out.println("ISBN " + isbn + " is already in the library!");
+            return false;
+        }
+        else
+        {
+            isbns.add(isbn);
+            Book book = new Book(isbn, title, author, genre, publisher, publicationYear, pageCount);
+            boolean shelfExists = false;
+            int lastShelfNumber = 0;
+
+            for (int i = 0; i < shelves.length; i++)
+            {
+                Shelf currentShelf = shelves.get(i);
+
+                //if suitable shelf is found
+                if (book.genre.equals(currentShelf.genre))
+                {
+                    if (currentShelf.books.length < maxShelfSize)
+                    {
+                        //add book to shelf
+                        currentShelf.books.add(book);
+                        Collections.sort(currentShelf.books);
+                        shelfExists = true;
+                        return true;
+                    }
+                    else
+                    {
+                        lastShelfNumber = currentShelf.number;
+                    }
+                }
+            }
+
+            //create new genre shelf
+            Shelf newShelf = new Shelf(book.genre, lastShelfNumber + 1);
+            newShelf.books.add(book);
+            shelves.add(newShelf);
+        }
     }
 
     public String getBookTitle(long isbn) 
@@ -70,7 +100,7 @@ public class LibrarySimulation implements Library
         throw new UnsupportedOperationException();
     }
 
-    public List<Long> getISBNsOnShelf(String shelfName) 
+    public List<Long> getISBNsOnShelf(String shelfName)
     {
         throw new UnsupportedOperationException();
     }
