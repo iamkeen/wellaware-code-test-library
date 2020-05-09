@@ -16,7 +16,7 @@ public class LibrarySimulation implements Library {
     public boolean addBookToShelf(String isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount) {
         //if book already in the library
         if (allBooks.containsKey(isbn)) {
-            System.out.println("ISBN " + isbn + " is already in the library!");
+            //System.out.println("ISBN " + isbn + " is already in the library!");
             return false;
         }
 
@@ -85,7 +85,7 @@ public class LibrarySimulation implements Library {
             }
         }
 
-        return "ISBN not found";
+        return "Error: ISBN not found in library.";
     }
 
     public List<String> getISBNsOnShelf(String shelfName) {
