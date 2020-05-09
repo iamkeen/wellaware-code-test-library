@@ -103,6 +103,10 @@ public class LibrarySimulation implements Library {
     }
 
     public List<String> getISBNsForGenre(String genre, int limit) {
+        if (limit == 0){
+            return Collections.emptyList();
+        }
+
         List<String> isbnsForGenre = new ArrayList<String>();
         int limitCount = 0;
 
@@ -123,6 +127,10 @@ public class LibrarySimulation implements Library {
     }
 
     public List<String> getISBNsForAuthor(String author, int limit) {
+        if (limit == 0){
+            return Collections.emptyList();
+        }
+
         List<String> isbnsForAuthor = new ArrayList<String>();
         int limitCount = 0;
 
@@ -143,6 +151,10 @@ public class LibrarySimulation implements Library {
     }
 
     public List<String> getISBNsForPublisher(String publisher, int limit) {
+        if (limit == 0){
+            return Collections.emptyList();
+        }
+
         List<String> isbnsForPublisher = new ArrayList<String>();
         int limitCount = 0;
 
@@ -163,6 +175,10 @@ public class LibrarySimulation implements Library {
     }
 
     public List<String> getISBNsPublishedAfterYear(short publicationYear, int limit) {
+        if (limit == 0){
+            return Collections.emptyList();
+        }
+
         List<String> isbnsPublishedAfterYear = new ArrayList<String>();
         int limitCount = 0;
 
@@ -183,6 +199,10 @@ public class LibrarySimulation implements Library {
     }
 
     public List<String> getISBNsWithMinimumPageCount(int minimumPageCount, int limit) {
+        if (limit == 0){
+            return Collections.emptyList();
+        }
+
         List<String> isbnsWithMinimumPagecount = new ArrayList<String>();
         int limitCount = 0;
 
