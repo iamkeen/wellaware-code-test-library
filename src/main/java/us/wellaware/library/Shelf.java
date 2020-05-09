@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Shelf
 {
-	public ArrayList<Book> books = new ArrayList<Book>();
+	public ArrayList<String> booksOnShelf = new ArrayList<String>();
 	public String genre;
 	public int number;
 

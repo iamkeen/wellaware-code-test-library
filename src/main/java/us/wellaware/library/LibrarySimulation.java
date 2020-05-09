@@ -7,31 +7,32 @@ import java.util.*;
 public class LibrarySimulation implements Library {
     private final int maxShelfSize;
 
+    //genre sections
     public ArrayList<Genre> genres = new ArrayList<Genre>();
-    public ArrayList<Long> isbns = new ArrayList<Long>();
+    public HashMap<String, Book> allBooks = new HashMap<String, Book>();
 
     public LibrarySimulation(int shelfSize) 
     {
         maxShelfSize = shelfSize;
     }
 
-    public boolean addBookToShelf(long isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount) {
-        if (isbns.contains(isbn)) {
+    public boolean addBookToShelf(String isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount) {
+        //if book already in the library
+        if (allBooks.containsKey(isbn)) {
             System.out.println("ISBN " + isbn + " is already in the library!");
             return false;
         }
 
-        isbns.add(isbn);
         Book book = new Book(isbn, title, author, genre, publisher, publicationYear, pageCount);
+        allBooks.put(isbn, book);
 
         for (Genre currentGenre : genres) {
-            //if genre exists is found
+            //if genre exists
             if (currentGenre.name.equals(genre)) {
                     currentGenre.addBook(book, maxShelfSize);
                     return true;
             }
         }
-
 
         //create new genre if does not exist in library
         Genre newGenre = new Genre(book.genre);
@@ -40,47 +41,49 @@ public class LibrarySimulation implements Library {
         return true;
     }
 
-    public String getBookTitle(long isbn) {
-        for (Genre genre : genres){
-            for (Book book : genre.books){
-                if (book.isbn == isbn){
-                    return book.title;
-                }
-            }
+    public String getBookTitle(String isbn) {
+        if (allBooks.containsKey(isbn)){
+            return allBooks.get(isbn).title;
         }
-
-        return "";
+        return "Error: ISBN not found in library.";
     }
 
-    public String getBookAuthor(long isbn) {
-        for (Genre genre : genres){
-            for (Book book : genre.books){
-                if (book.isbn == isbn){
-                    return book.author;
-                }
-            }
+    public String getBookAuthor(String isbn) {
+        if (allBooks.containsKey(isbn)){
+            return allBooks.get(isbn).author;
         }
+        return "Error: ISBN not found in library.";
+    }
 
-        return "";
+    public String getBookInfo(String isbn){
+        if (allBooks.containsKey(isbn)){
+            return allBooks.get(isbn).toString();
+        }
+        return "Error: ISBN not found in library.";
     }
 
     public List<String> getShelfNames() {
         List<String> shelfNames = new ArrayList<>();
-
         for (Genre genre : genres) {
             for (Shelf shelf : genre.shelves){
                 shelfNames.add(shelf.toString());
             }
         }
-
         return shelfNames;
     }
 
-    public String findShelfNameForISBN(long isbn) {
-        for (Genre genre : genres) {
-            for (Book book : genre.books) {
-                if (book.isbn == isbn) {
-                    return book.shelf.toString();
+    public String findShelfNameForISBN(String isbn) {
+        if (allBooks.containsKey(isbn)){
+            Book book = allBooks.get(isbn);
+            String bookGenre = book.genre;
+            for (Genre genre : genres){
+                if (genre.name.equals(bookGenre)){
+                    //only go through shelves of the book's genre
+                    for (Shelf shelf : genre.shelves){
+                        if (shelf.booksOnShelf.contains(isbn)) {
+                            return shelf.toString();
+                        }
+                    }
                 }
             }
         }
@@ -88,15 +91,12 @@ public class LibrarySimulation implements Library {
         return "ISBN not found";
     }
 
-    public List<Long> getISBNsOnShelf(String shelfName) {
-        List<Long> isbnsOnShelf = new ArrayList<Long>();
-
+    public List<String> getISBNsOnShelf(String shelfName) {
+        List<String> isbnsOnShelf = new ArrayList<String>();
         for (Genre genre : genres) {
             for (Shelf shelf : genre.shelves){
                 if (shelf.toString().equals(shelfName)) {
-                    for (Book currentBook : shelf.books) {
-                        isbnsOnShelf.add(currentBook.isbn);
-                    }
+                    isbnsOnShelf.addAll(shelf.booksOnShelf);
                 }
             }
         }
@@ -104,8 +104,8 @@ public class LibrarySimulation implements Library {
         return isbnsOnShelf;
     }
 
-    public List<Long> getISBNsForGenre(String genre, int limit) {
-        List<Long> isbnsForGenre = new ArrayList<Long>();
+    public List<String> getISBNsForGenre(String genre, int limit) {
+        List<String> isbnsForGenre = new ArrayList<String>();
         int limitCount = 0;
 
         for (Genre currentGenre : genres) {
@@ -124,8 +124,8 @@ public class LibrarySimulation implements Library {
         return isbnsForGenre;
     }
 
-    public List<Long> getISBNsForAuthor(String author, int limit) {
-        List<Long> isbnsForAuthor = new ArrayList<Long>();
+    public List<String> getISBNsForAuthor(String author, int limit) {
+        List<String> isbnsForAuthor = new ArrayList<String>();
         int limitCount = 0;
 
         for (Genre genre : genres) {
@@ -144,8 +144,8 @@ public class LibrarySimulation implements Library {
         return isbnsForAuthor;
     }
 
-    public List<Long> getISBNsForPublisher(String publisher, int limit) {
-        List<Long> isbnsForPublisher = new ArrayList<Long>();
+    public List<String> getISBNsForPublisher(String publisher, int limit) {
+        List<String> isbnsForPublisher = new ArrayList<String>();
         int limitCount = 0;
 
         for (Genre genre : genres) {
@@ -164,8 +164,8 @@ public class LibrarySimulation implements Library {
         return isbnsForPublisher;
     }
 
-    public List<Long> getISBNsPublishedAfterYear(short publicationYear, int limit) {
-        List<Long> isbnsPublishedAfterYear = new ArrayList<Long>();
+    public List<String> getISBNsPublishedAfterYear(short publicationYear, int limit) {
+        List<String> isbnsPublishedAfterYear = new ArrayList<String>();
         int limitCount = 0;
 
         for (Genre genre : genres) {
@@ -184,8 +184,8 @@ public class LibrarySimulation implements Library {
         return isbnsPublishedAfterYear;
     }
 
-    public List<Long> getISBNsWithMinimumPageCount(int minimumPageCount, int limit) {
-        List<Long> isbnsWithMinimumPagecount = new ArrayList<Long>();
+    public List<String> getISBNsWithMinimumPageCount(int minimumPageCount, int limit) {
+        List<String> isbnsWithMinimumPagecount = new ArrayList<String>();
         int limitCount = 0;
 
         for (Genre genre : genres) {

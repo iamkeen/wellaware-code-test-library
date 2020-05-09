@@ -4,16 +4,15 @@ import java.util.*;
 
 public class Book implements Comparable<Book>
 {
-	public long isbn;
+	public String isbn;
 	public String title;
 	public String author;
 	public String genre;
 	public String publisher;
 	public int publicationYear;
 	public int pageCount;
-	public Shelf shelf;
 
-	public Book(long isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount)
+	public Book(String isbn, String title, String author, String genre, String publisher, int publicationYear, int pageCount)
 	{
 		this.isbn = isbn;
 		this.title = title;
@@ -26,7 +25,7 @@ public class Book implements Comparable<Book>
 
 	public String toString()
 	{
-		return "" + isbn + "\n" + title + "\n" + author + "\n" + genre + "\n" + publisher + "\n" + publicationYear + "\n" + pageCount + "\n\n";
+		return "" + isbn + "\\" + title + "\\" + author + "\\" + genre + "\\" + publisher + "\\" + publicationYear + "\\" + pageCount + "\\";
 	}
 	public int compareTo(Book b)
 	{
