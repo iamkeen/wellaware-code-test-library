@@ -1,0 +1,795 @@
+"C:\Program Files\Java\jdk-11.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=60689:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Keen\Desktop\WellAwareCodeTest\out\production\WellAwareCodeTest;C:\Users\Keen\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Keen\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Keen\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Keen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Keen\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Keen\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Keen\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Keen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Keen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Keen\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar us.wellaware.library.Main
+ISBN 440238153 is already in the library!
+
+The Amber Spyglass  (His Dark Materials, #3) found in Fantasy - 3
+The She-Wolf (The Accursed Kings, #5) found in Historical Fiction - 1
+Report to the Men's Club and Other Stories found in Science Fiction - 2
+I Live with You found in Science Fiction - 2
+The Subtle Knife  (His Dark Materials, #2) found in Fantasy - 4
+The Phantom of the Opera found in Classics - 1
+Kill the Dead (Sandman Slim, #2) found in Fantasy - 3
+The Royal Succession (The Accursed Kings #4) found in Historical Fiction - 1
+Recursion found in Science Fiction - 1
+Cities of the Plain (The Border Trilogy, #3) found in Literary Fiction - 1
+The Golden Compass (His Dark Materials, #1) found in Fantasy - 3
+American Gods (American Gods, #1) found in Fantasy - 2
+Jude the Obscure found in Classics - 1
+Brief Cases (The Dresden Files, #15.1) found in Fantasy - 1
+The Winter of the Witch (Winternight Trilogy, #3) found in Fantasy - 1
+Up Jumps the Devil found in Fantasy - 3
+Sapphique (Incarceron, #2) found in Fantasy - 2
+Tinker, Tailor, Soldier, Spy found in Thriller - 1
+Incarceron (Incarceron, #1) found in Fantasy - 2
+Lord of Light found in Science Fiction - 3
+The Beast in the Jungle found in Classics - 1
+The Jagged Orbit found in Science Fiction - 1
+The Girl in the Tower (Winternight Trilogy, #2) found in Fantasy - 1
+The Bear and the Nightingale (Winternight Trilogy, #1) found in Fantasy - 1
+Dark Matter found in Science Fiction - 1
+Skin Game (The Dresden Files, #15) found in Fantasy - 2
+Sister Carrie found in Classics - 1
+Sandman Slim (Sandman Slim, #1) found in Fantasy - 3
+The Norma Gene found in Modern Fiction - 1
+The Fountainhead found in Classics - 1
+The Time of the Dark (Darwath, #1) found in Fantasy - 2
+Cold Days (The Dresden Files, #14) found in Fantasy - 1
+Kidnapped (David Balfour, #1) found in Classics - 2
+Anna Karenina found in Classics - 2
+Company of Liars found in Historical Fiction - 1
+The Crossing (The Border Trilogy, #2) found in Literary Fiction - 1
+All the Pretty Horses (The Border Trilogy, #1) found in Literary Fiction - 1
+The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown found in Historical Fiction - 1
+Black Hat Jack found in Western - 1
+The Eye of God (Sigma Force, #9) found in Thriller - 1
+A Man from Planet Earth: A Scientific Novel found in Science Fiction - 2
+Do Androids Dream of Electric Sheep? found in Science Fiction - 1
+Oil! found in Classics - 2
+Freehold found in Science Fiction - 2
+14 (Threshold, #1) found in Horror - 1
+The Doors of His Face, the Lamps of His Mouth found in Science Fiction - 3
+Tortured Souls: The Legend of Primordium found in Horror - 1
+Green Earth found in Science Fiction - 2
+The Salt Roads found in Literary Fiction - 1
+Seed to Harvest (Patternmaster, #1-4) found in Science Fiction - 1
+Phoenix Island (Phoenix Island, #1) found in Thriller - 1
+Zeroes found in Thriller - 1
+Jim Henson: The Biography found in Biography - 1
+Norse Mythology found in Mythology - 1
+
+All books in Fantasy
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+345409957\The Time of the Dark (Darwath, #1)\Hambly, Barbara\Fantasy\Ballantine Books\1982\263\
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+61714305\Sandman Slim (Sandman Slim, #1)\Kadrey, Richard\Fantasy\Harper Voyager\2009\388\
+6206441X\Up Jumps the Devil\Poore, Michael\Fantasy\Ecco/HarperCollins\2012\368\
+440238153\The Amber Spyglass  (His Dark Materials, #3)\Pullman, Philip\Fantasy\Laurel Leaf\2000\467\
+679879242\The Golden Compass (His Dark Materials, #1)\Pullman, Philip\Fantasy\Alfred A. Knopf Books for Young Readers\1995\399\
+776655\The Subtle Knife  (His Dark Materials, #2)\Pullman, Philip\Fantasy\RHCP Digital\1997\370\
+
+All books in Historical Fiction
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+665544\The Royal Succession (The Accursed Kings #4)\Druon, Maurice\Historical Fiction\Ace Book\1957\252\
+7491344\The She-Wolf (The Accursed Kings, #5)\Druon, Maurice\Historical Fiction\HarperCollins\1959\464\
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+
+All books in Science Fiction
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+1524759783\Recursion\Crouch, Blake\Science Fiction\Crown Publishing Group (NY)\2019\336\
+332211\Do Androids Dream of Electric Sheep?\Dick, Philip K.\Science Fiction\Ballantine Books\1968\258\
+759202060\Freehold\Dietz, William C.\Science Fiction\eReads.com\1987\188\
+1892391252\I Live with You\Emshwiller, Carol\Science Fiction\Tachyon Publications\2005\232\
+193152002X\Report to the Men's Club and Other Stories\Emshwiller, Carol\Science Fiction\Small Beer Press\2002\282\
+3319211145\A Man from Planet Earth: A Scientific Novel\Genta, Giancarlo\Science Fiction\Springer\2015\308\
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+60567236\Lord of Light\Zelazny, Roger\Science Fiction\Harper Voyager\1967\296\
+887766\The Doors of His Face, the Lamps of His Mouth\Zelazny, Roger\Science Fiction\Unknown Press\1965\512\
+
+All books in Classics
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+486452433\Jude the Obscure\Hardy, Thomas\Classics\Dover Publications\1895\310\
+1419153765\The Beast in the Jungle\James, Henry\Classics\Kessinger Publishing\1903\48\
+60809248\The Phantom of the Opera\Leroux, Gaston\Classics\Harper Perennial\1909\360\
+451191153\The Fountainhead\Rand, Ayn\Classics\Signet Book\1943\704\
+520207270\Oil!\Sinclair, Upton\Classics\University of California Press\1926\528\
+439295785\Kidnapped (David Balfour, #1)\Stevenson, Robert Louis\Classics\Scholastic Paperbacks\1886\288\
+451528611\Anna Karenina\Tolstoy, Leo\Classics\Signet\1877\960\
+
+All books in Literary Fiction
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+679744398\All the Pretty Horses (The Border Trilogy, #1)\McCarthy, Cormac\Literary Fiction\Vintage\1992\302\
+679747192\Cities of the Plain (The Border Trilogy, #3)\McCarthy, Cormac\Literary Fiction\Vintage Books\1998\292\
+394574753\The Crossing (The Border Trilogy, #2)\McCarthy, Cormac\Literary Fiction\Knopf Publishing Group\1994\426\
+
+All books in Thriller
+143119788\Tinker, Tailor, Soldier, Spy\Carre, John le\Thriller\Penguin Books\1974\381\
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+
+All books in Modern Fiction
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+
+All books in Western
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+
+All books in Horror
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+
+All books in Biography
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+All books in Mythology
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+
+First 3 books in Fantasy
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+
+First 3 books in Historical Fiction
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+665544\The Royal Succession (The Accursed Kings #4)\Druon, Maurice\Historical Fiction\Ace Book\1957\252\
+7491344\The She-Wolf (The Accursed Kings, #5)\Druon, Maurice\Historical Fiction\HarperCollins\1959\464\
+
+First 3 books in Science Fiction
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+
+First 3 books in Classics
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+486452433\Jude the Obscure\Hardy, Thomas\Classics\Dover Publications\1895\310\
+1419153765\The Beast in the Jungle\James, Henry\Classics\Kessinger Publishing\1903\48\
+
+First 3 books in Literary Fiction
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+679744398\All the Pretty Horses (The Border Trilogy, #1)\McCarthy, Cormac\Literary Fiction\Vintage\1992\302\
+679747192\Cities of the Plain (The Border Trilogy, #3)\McCarthy, Cormac\Literary Fiction\Vintage Books\1998\292\
+
+First 3 books in Thriller
+143119788\Tinker, Tailor, Soldier, Spy\Carre, John le\Thriller\Penguin Books\1974\381\
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+
+First 3 books in Modern Fiction
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+
+First 3 books in Western
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+
+First 3 books in Horror
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+
+First 3 books in Biography
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+First 3 books in Mythology
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+
+All books by Pullman, Philip
+440238153\The Amber Spyglass  (His Dark Materials, #3)\Pullman, Philip\Fantasy\Laurel Leaf\2000\467\
+679879242\The Golden Compass (His Dark Materials, #1)\Pullman, Philip\Fantasy\Alfred A. Knopf Books for Young Readers\1995\399\
+776655\The Subtle Knife  (His Dark Materials, #2)\Pullman, Philip\Fantasy\RHCP Digital\1997\370\
+
+All books by Druon, Maurice
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+665544\The Royal Succession (The Accursed Kings #4)\Druon, Maurice\Historical Fiction\Ace Book\1957\252\
+7491344\The She-Wolf (The Accursed Kings, #5)\Druon, Maurice\Historical Fiction\HarperCollins\1959\464\
+
+All books by Emshwiller, Carol
+1892391252\I Live with You\Emshwiller, Carol\Science Fiction\Tachyon Publications\2005\232\
+193152002X\Report to the Men's Club and Other Stories\Emshwiller, Carol\Science Fiction\Small Beer Press\2002\282\
+
+All books by Leroux, Gaston
+60809248\The Phantom of the Opera\Leroux, Gaston\Classics\Harper Perennial\1909\360\
+
+All books by Kadrey, Richard
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+61714305\Sandman Slim (Sandman Slim, #1)\Kadrey, Richard\Fantasy\Harper Voyager\2009\388\
+
+All books by Crouch, Blake
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+1524759783\Recursion\Crouch, Blake\Science Fiction\Crown Publishing Group (NY)\2019\336\
+
+All books by McCarthy, Cormac
+679744398\All the Pretty Horses (The Border Trilogy, #1)\McCarthy, Cormac\Literary Fiction\Vintage\1992\302\
+679747192\Cities of the Plain (The Border Trilogy, #3)\McCarthy, Cormac\Literary Fiction\Vintage Books\1998\292\
+394574753\The Crossing (The Border Trilogy, #2)\McCarthy, Cormac\Literary Fiction\Knopf Publishing Group\1994\426\
+
+All books by Gaiman, Neil
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+All books by Hardy, Thomas
+486452433\Jude the Obscure\Hardy, Thomas\Classics\Dover Publications\1895\310\
+
+All books by Butcher, Jim
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+
+All books by Arden, Katherine
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+
+All books by Poore, Michael
+6206441X\Up Jumps the Devil\Poore, Michael\Fantasy\Ecco/HarperCollins\2012\368\
+
+All books by Fisher, Catherine
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+
+All books by Carre, John le
+143119788\Tinker, Tailor, Soldier, Spy\Carre, John le\Thriller\Penguin Books\1974\381\
+
+All books by Zelazny, Roger
+60567236\Lord of Light\Zelazny, Roger\Science Fiction\Harper Voyager\1967\296\
+887766\The Doors of His Face, the Lamps of His Mouth\Zelazny, Roger\Science Fiction\Unknown Press\1965\512\
+
+All books by James, Henry
+1419153765\The Beast in the Jungle\James, Henry\Classics\Kessinger Publishing\1903\48\
+
+All books by Brunner, John
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+
+All books by Dreiser, Theodore
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+
+All books by Roufa, M.E.
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+
+All books by Rand, Ayn
+451191153\The Fountainhead\Rand, Ayn\Classics\Signet Book\1943\704\
+
+All books by Hambly, Barbara
+345409957\The Time of the Dark (Darwath, #1)\Hambly, Barbara\Fantasy\Ballantine Books\1982\263\
+
+All books by Stevenson, Robert Louis
+439295785\Kidnapped (David Balfour, #1)\Stevenson, Robert Louis\Classics\Scholastic Paperbacks\1886\288\
+
+All books by Tolstoy, Leo
+451528611\Anna Karenina\Tolstoy, Leo\Classics\Signet\1877\960\
+
+All books by Maitland, Karen
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+
+All books by Lansdale, Joe R.
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+
+All books by Rollins, James
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+
+All books by Genta, Giancarlo
+3319211145\A Man from Planet Earth: A Scientific Novel\Genta, Giancarlo\Science Fiction\Springer\2015\308\
+
+All books by Dick, Philip K.
+332211\Do Androids Dream of Electric Sheep?\Dick, Philip K.\Science Fiction\Ballantine Books\1968\258\
+
+All books by Sinclair, Upton
+520207270\Oil!\Sinclair, Upton\Classics\University of California Press\1926\528\
+
+All books by Dietz, William C.
+759202060\Freehold\Dietz, William C.\Science Fiction\eReads.com\1987\188\
+
+All books by Clines, Peter
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+
+All books by Barker, Clive
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+
+All books by Robinson, Kim Stanley
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+
+All books by Hopkinson, Nalo
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+
+All books by Butler, Octavia E.
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+
+All books by Dixon, John
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+
+All books by Wendig, Chuck
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+
+All books by Jones, Brian Jay
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+
+First 2 books by Pullman, Philip
+440238153\The Amber Spyglass  (His Dark Materials, #3)\Pullman, Philip\Fantasy\Laurel Leaf\2000\467\
+679879242\The Golden Compass (His Dark Materials, #1)\Pullman, Philip\Fantasy\Alfred A. Knopf Books for Young Readers\1995\399\
+
+First 2 books by Druon, Maurice
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+665544\The Royal Succession (The Accursed Kings #4)\Druon, Maurice\Historical Fiction\Ace Book\1957\252\
+
+First 2 books by Emshwiller, Carol
+1892391252\I Live with You\Emshwiller, Carol\Science Fiction\Tachyon Publications\2005\232\
+193152002X\Report to the Men's Club and Other Stories\Emshwiller, Carol\Science Fiction\Small Beer Press\2002\282\
+
+First 2 books by Leroux, Gaston
+60809248\The Phantom of the Opera\Leroux, Gaston\Classics\Harper Perennial\1909\360\
+
+First 2 books by Kadrey, Richard
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+61714305\Sandman Slim (Sandman Slim, #1)\Kadrey, Richard\Fantasy\Harper Voyager\2009\388\
+
+First 2 books by Crouch, Blake
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+1524759783\Recursion\Crouch, Blake\Science Fiction\Crown Publishing Group (NY)\2019\336\
+
+First 2 books by McCarthy, Cormac
+679744398\All the Pretty Horses (The Border Trilogy, #1)\McCarthy, Cormac\Literary Fiction\Vintage\1992\302\
+679747192\Cities of the Plain (The Border Trilogy, #3)\McCarthy, Cormac\Literary Fiction\Vintage Books\1998\292\
+
+First 2 books by Gaiman, Neil
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+First 2 books by Hardy, Thomas
+486452433\Jude the Obscure\Hardy, Thomas\Classics\Dover Publications\1895\310\
+
+First 2 books by Butcher, Jim
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+
+First 2 books by Arden, Katherine
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+
+First 2 books by Poore, Michael
+6206441X\Up Jumps the Devil\Poore, Michael\Fantasy\Ecco/HarperCollins\2012\368\
+
+First 2 books by Fisher, Catherine
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+
+First 2 books by Carre, John le
+143119788\Tinker, Tailor, Soldier, Spy\Carre, John le\Thriller\Penguin Books\1974\381\
+
+First 2 books by Zelazny, Roger
+60567236\Lord of Light\Zelazny, Roger\Science Fiction\Harper Voyager\1967\296\
+887766\The Doors of His Face, the Lamps of His Mouth\Zelazny, Roger\Science Fiction\Unknown Press\1965\512\
+
+First 2 books by James, Henry
+1419153765\The Beast in the Jungle\James, Henry\Classics\Kessinger Publishing\1903\48\
+
+First 2 books by Brunner, John
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+
+First 2 books by Dreiser, Theodore
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+
+First 2 books by Roufa, M.E.
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+
+First 2 books by Rand, Ayn
+451191153\The Fountainhead\Rand, Ayn\Classics\Signet Book\1943\704\
+
+First 2 books by Hambly, Barbara
+345409957\The Time of the Dark (Darwath, #1)\Hambly, Barbara\Fantasy\Ballantine Books\1982\263\
+
+First 2 books by Stevenson, Robert Louis
+439295785\Kidnapped (David Balfour, #1)\Stevenson, Robert Louis\Classics\Scholastic Paperbacks\1886\288\
+
+First 2 books by Tolstoy, Leo
+451528611\Anna Karenina\Tolstoy, Leo\Classics\Signet\1877\960\
+
+First 2 books by Maitland, Karen
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+
+First 2 books by Lansdale, Joe R.
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+
+First 2 books by Rollins, James
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+
+First 2 books by Genta, Giancarlo
+3319211145\A Man from Planet Earth: A Scientific Novel\Genta, Giancarlo\Science Fiction\Springer\2015\308\
+
+First 2 books by Dick, Philip K.
+332211\Do Androids Dream of Electric Sheep?\Dick, Philip K.\Science Fiction\Ballantine Books\1968\258\
+
+First 2 books by Sinclair, Upton
+520207270\Oil!\Sinclair, Upton\Classics\University of California Press\1926\528\
+
+First 2 books by Dietz, William C.
+759202060\Freehold\Dietz, William C.\Science Fiction\eReads.com\1987\188\
+
+First 2 books by Clines, Peter
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+
+First 2 books by Barker, Clive
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+
+First 2 books by Robinson, Kim Stanley
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+
+First 2 books by Hopkinson, Nalo
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+
+First 2 books by Butler, Octavia E.
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+
+First 2 books by Dixon, John
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+
+First 2 books by Wendig, Chuck
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+
+First 2 books by Jones, Brian Jay
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+
+All books published by Laurel Leaf
+440238153\The Amber Spyglass  (His Dark Materials, #3)\Pullman, Philip\Fantasy\Laurel Leaf\2000\467\
+
+All books published by HarperCollins
+7491344\The She-Wolf (The Accursed Kings, #5)\Druon, Maurice\Historical Fiction\HarperCollins\1959\464\
+
+All books published by Small Beer Press
+193152002X\Report to the Men's Club and Other Stories\Emshwiller, Carol\Science Fiction\Small Beer Press\2002\282\
+
+All books published by Tachyon Publications
+1892391252\I Live with You\Emshwiller, Carol\Science Fiction\Tachyon Publications\2005\232\
+
+All books published by RHCP Digital
+776655\The Subtle Knife  (His Dark Materials, #2)\Pullman, Philip\Fantasy\RHCP Digital\1997\370\
+
+All books published by Harper Perennial
+60809248\The Phantom of the Opera\Leroux, Gaston\Classics\Harper Perennial\1909\360\
+
+All books published by Eos
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+
+All books published by Ace Book
+665544\The Royal Succession (The Accursed Kings #4)\Druon, Maurice\Historical Fiction\Ace Book\1957\252\
+
+All books published by Crown Publishing Group (NY)
+1524759783\Recursion\Crouch, Blake\Science Fiction\Crown Publishing Group (NY)\2019\336\
+
+All books published by Vintage Books
+679747192\Cities of the Plain (The Border Trilogy, #3)\McCarthy, Cormac\Literary Fiction\Vintage Books\1998\292\
+
+All books published by Alfred A. Knopf Books for Young Readers
+679879242\The Golden Compass (His Dark Materials, #1)\Pullman, Philip\Fantasy\Alfred A. Knopf Books for Young Readers\1995\399\
+
+All books published by William Morrow
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+
+All books published by Dover Publications
+486452433\Jude the Obscure\Hardy, Thomas\Classics\Dover Publications\1895\310\
+
+All books published by Ace
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+
+All books published by Del Rey
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+
+All books published by Ecco/HarperCollins
+6206441X\Up Jumps the Devil\Poore, Michael\Fantasy\Ecco/HarperCollins\2012\368\
+
+All books published by Hodder Children's Books
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+
+All books published by Penguin Books
+143119788\Tinker, Tailor, Soldier, Spy\Carre, John le\Thriller\Penguin Books\1974\381\
+
+All books published by Harper Voyager
+61714305\Sandman Slim (Sandman Slim, #1)\Kadrey, Richard\Fantasy\Harper Voyager\2009\388\
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+60567236\Lord of Light\Zelazny, Roger\Science Fiction\Harper Voyager\1967\296\
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+
+All books published by Kessinger Publishing
+1419153765\The Beast in the Jungle\James, Henry\Classics\Kessinger Publishing\1903\48\
+
+All books published by Victor Gollancz (Orion Books)
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+
+All books published by Del Rey
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+
+All books published by Del Rey Books
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+
+All books published by Crown
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+
+All books published by Roc
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+
+All books published by W. W. Norton & Company
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+All books published by Biting Duck Press
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+
+All books published by Signet Book
+451191153\The Fountainhead\Rand, Ayn\Classics\Signet Book\1943\704\
+
+All books published by Ballantine Books
+345409957\The Time of the Dark (Darwath, #1)\Hambly, Barbara\Fantasy\Ballantine Books\1982\263\
+332211\Do Androids Dream of Electric Sheep?\Dick, Philip K.\Science Fiction\Ballantine Books\1968\258\
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+All books published by Penguin Group (USA)
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+
+All books published by Scholastic Paperbacks
+439295785\Kidnapped (David Balfour, #1)\Stevenson, Robert Louis\Classics\Scholastic Paperbacks\1886\288\
+
+All books published by Signet
+451528611\Anna Karenina\Tolstoy, Leo\Classics\Signet\1877\960\
+
+All books published by Michael Joseph
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+
+All books published by Knopf Publishing Group
+394574753\The Crossing (The Border Trilogy, #2)\McCarthy, Cormac\Literary Fiction\Knopf Publishing Group\1994\426\
+
+All books published by Vintage
+679744398\All the Pretty Horses (The Border Trilogy, #1)\McCarthy, Cormac\Literary Fiction\Vintage\1992\302\
+
+All books published by Subterranean Press
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+
+All books published by Springer
+3319211145\A Man from Planet Earth: A Scientific Novel\Genta, Giancarlo\Science Fiction\Springer\2015\308\
+
+All books published by University of California Press
+520207270\Oil!\Sinclair, Upton\Classics\University of California Press\1926\528\
+
+All books published by eReads.com
+759202060\Freehold\Dietz, William C.\Science Fiction\eReads.com\1987\188\
+
+All books published by Permuted Press
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+
+All books published by Unknown Press
+887766\The Doors of His Face, the Lamps of His Mouth\Zelazny, Roger\Science Fiction\Unknown Press\1965\512\
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+
+All books published by Grand Central Publishing
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+
+All books published by Gallery Books
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+
+
+First 5 books published by Laurel Leaf
+440238153\The Amber Spyglass  (His Dark Materials, #3)\Pullman, Philip\Fantasy\Laurel Leaf\2000\467\
+
+First 5 books published by HarperCollins
+7491344\The She-Wolf (The Accursed Kings, #5)\Druon, Maurice\Historical Fiction\HarperCollins\1959\464\
+
+First 5 books published by Small Beer Press
+193152002X\Report to the Men's Club and Other Stories\Emshwiller, Carol\Science Fiction\Small Beer Press\2002\282\
+
+First 5 books published by Tachyon Publications
+1892391252\I Live with You\Emshwiller, Carol\Science Fiction\Tachyon Publications\2005\232\
+
+First 5 books published by RHCP Digital
+776655\The Subtle Knife  (His Dark Materials, #2)\Pullman, Philip\Fantasy\RHCP Digital\1997\370\
+
+First 5 books published by Harper Perennial
+60809248\The Phantom of the Opera\Leroux, Gaston\Classics\Harper Perennial\1909\360\
+
+First 5 books published by Eos
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+
+First 5 books published by Ace Book
+665544\The Royal Succession (The Accursed Kings #4)\Druon, Maurice\Historical Fiction\Ace Book\1957\252\
+
+First 5 books published by Crown Publishing Group (NY)
+1524759783\Recursion\Crouch, Blake\Science Fiction\Crown Publishing Group (NY)\2019\336\
+
+First 5 books published by Vintage Books
+679747192\Cities of the Plain (The Border Trilogy, #3)\McCarthy, Cormac\Literary Fiction\Vintage Books\1998\292\
+
+First 5 books published by Alfred A. Knopf Books for Young Readers
+679879242\The Golden Compass (His Dark Materials, #1)\Pullman, Philip\Fantasy\Alfred A. Knopf Books for Young Readers\1995\399\
+
+First 5 books published by William Morrow
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+
+First 5 books published by Dover Publications
+486452433\Jude the Obscure\Hardy, Thomas\Classics\Dover Publications\1895\310\
+
+First 5 books published by Ace
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+
+First 5 books published by Del Rey
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+
+First 5 books published by Ecco/HarperCollins
+6206441X\Up Jumps the Devil\Poore, Michael\Fantasy\Ecco/HarperCollins\2012\368\
+
+First 5 books published by Hodder Children's Books
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+
+First 5 books published by Penguin Books
+143119788\Tinker, Tailor, Soldier, Spy\Carre, John le\Thriller\Penguin Books\1974\381\
+
+First 5 books published by Harper Voyager
+61714305\Sandman Slim (Sandman Slim, #1)\Kadrey, Richard\Fantasy\Harper Voyager\2009\388\
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+60567236\Lord of Light\Zelazny, Roger\Science Fiction\Harper Voyager\1967\296\
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+
+First 5 books published by Kessinger Publishing
+1419153765\The Beast in the Jungle\James, Henry\Classics\Kessinger Publishing\1903\48\
+
+First 5 books published by Victor Gollancz (Orion Books)
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+
+First 5 books published by Del Rey
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+
+First 5 books published by Del Rey Books
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+
+First 5 books published by Crown
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+
+First 5 books published by Roc
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+
+First 5 books published by W. W. Norton & Company
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+First 5 books published by Biting Duck Press
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+
+First 5 books published by Signet Book
+451191153\The Fountainhead\Rand, Ayn\Classics\Signet Book\1943\704\
+
+First 5 books published by Ballantine Books
+345409957\The Time of the Dark (Darwath, #1)\Hambly, Barbara\Fantasy\Ballantine Books\1982\263\
+332211\Do Androids Dream of Electric Sheep?\Dick, Philip K.\Science Fiction\Ballantine Books\1968\258\
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+First 5 books published by Penguin Group (USA)
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+
+First 5 books published by Scholastic Paperbacks
+439295785\Kidnapped (David Balfour, #1)\Stevenson, Robert Louis\Classics\Scholastic Paperbacks\1886\288\
+
+First 5 books published by Signet
+451528611\Anna Karenina\Tolstoy, Leo\Classics\Signet\1877\960\
+
+First 5 books published by Michael Joseph
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+
+First 5 books published by Knopf Publishing Group
+394574753\The Crossing (The Border Trilogy, #2)\McCarthy, Cormac\Literary Fiction\Knopf Publishing Group\1994\426\
+
+First 5 books published by Vintage
+679744398\All the Pretty Horses (The Border Trilogy, #1)\McCarthy, Cormac\Literary Fiction\Vintage\1992\302\
+
+First 5 books published by Subterranean Press
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+
+First 5 books published by Springer
+3319211145\A Man from Planet Earth: A Scientific Novel\Genta, Giancarlo\Science Fiction\Springer\2015\308\
+
+First 5 books published by University of California Press
+520207270\Oil!\Sinclair, Upton\Classics\University of California Press\1926\528\
+
+First 5 books published by eReads.com
+759202060\Freehold\Dietz, William C.\Science Fiction\eReads.com\1987\188\
+
+First 5 books published by Permuted Press
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+
+First 5 books published by Unknown Press
+887766\The Doors of His Face, the Lamps of His Mouth\Zelazny, Roger\Science Fiction\Unknown Press\1965\512\
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+
+First 5 books published by Grand Central Publishing
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+
+First 5 books published by Gallery Books
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+
+
+All books published after 2000
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+61714305\Sandman Slim (Sandman Slim, #1)\Kadrey, Richard\Fantasy\Harper Voyager\2009\388\
+6206441X\Up Jumps the Devil\Poore, Michael\Fantasy\Ecco/HarperCollins\2012\368\
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+1101904224\Dark Matter\Crouch, Blake\Science Fiction\Crown\2016\342\
+1524759783\Recursion\Crouch, Blake\Science Fiction\Crown Publishing Group (NY)\2019\336\
+1892391252\I Live with You\Emshwiller, Carol\Science Fiction\Tachyon Publications\2005\232\
+193152002X\Report to the Men's Club and Other Stories\Emshwiller, Carol\Science Fiction\Small Beer Press\2002\282\
+3319211145\A Man from Planet Earth: A Scientific Novel\Genta, Giancarlo\Science Fiction\Springer\2015\308\
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+1476738637\Phoenix Island (Phoenix Island, #1)\Dixon, John\Thriller\Gallery Books\2014\320\
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+1938463412\The Norma Gene\Roufa, M.E.\Modern Fiction\Biting Duck Press\2015\238\
+1596066776\Black Hat Jack\Lansdale, Joe R.\Western\Subterranean Press\2014\128\
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+998877\14 (Threshold, #1)\Clines, Peter\Horror\Permuted Press\2012\372\
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+545454\Norse Mythology\Gaiman, Neil\Mythology\W. W. Norton & Company\2017\301\
+
+First 5 books published after 2000
+1101885939\The Bear and the Nightingale (Winternight Trilogy, #1)\Arden, Katherine\Fantasy\Del Rey Books\2017\323\
+1101885963\The Girl in the Tower (Winternight Trilogy, #2)\Arden, Katherine\Fantasy\Del Rey \2017\363\
+1101886005\The Winter of the Witch (Winternight Trilogy, #3)\Arden, Katherine\Fantasy\Del Rey\2019\384\
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+
+Books with at least 400 pages
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+554433\American Gods (American Gods, #1)\Gaiman, Neil\Fantasy\William Morrow\2001\635\
+61714313\Kill the Dead (Sandman Slim, #2)\Kadrey, Richard\Fantasy\Eos\2010\434\
+440238153\The Amber Spyglass  (His Dark Materials, #3)\Pullman, Philip\Fantasy\Laurel Leaf\2000\467\
+443322\The Accursed Kings Series Books 1-3: The Iron King, The Strangled Queen, The Poisoned Crown\Druon, Maurice\Historical Fiction\Harper Voyager\1965\992\
+7491344\The She-Wolf (The Accursed Kings, #5)\Druon, Maurice\Historical Fiction\HarperCollins\1959\464\
+718153227\Company of Liars\Maitland, Karen\Historical Fiction\Michael Joseph\2015\576\
+575070528\The Jagged Orbit\Brunner, John\Science Fiction\Victor Gollancz (Orion Books)\1969\400\
+446698903\Seed to Harvest (Patternmaster, #1-4)\Butler, Octavia E.\Science Fiction\Grand Central Publishing\1976\767\
+1101964839\Green Earth\Robinson, Kim Stanley\Science Fiction\Del Rey\2015\1088\
+887766\The Doors of His Face, the Lamps of His Mouth\Zelazny, Roger\Science Fiction\Unknown Press\1965\512\
+393960420\Sister Carrie\Dreiser, Theodore\Classics\W. W. Norton & Company\1900\580\
+451191153\The Fountainhead\Rand, Ayn\Classics\Signet Book\1943\704\
+520207270\Oil!\Sinclair, Upton\Classics\University of California Press\1926\528\
+451528611\Anna Karenina\Tolstoy, Leo\Classics\Signet\1877\960\
+446677132\The Salt Roads\Hopkinson, Nalo\Literary Fiction\Grand Central Publishing\2004\416\
+394574753\The Crossing (The Border Trilogy, #2)\McCarthy, Cormac\Literary Fiction\Knopf Publishing Group\1994\426\
+6178480X\The Eye of God (Sigma Force, #9)\Rollins, James\Thriller\William Morrow\2013\410\
+62351583\Zeroes\Wendig, Chuck\Thriller\Harper Voyager\2015\496\
+767676\Tortured Souls: The Legend of Primordium\Barker, Clive\Horror\Unknown Press\2001\666\
+345526112\Jim Henson: The Biography\Jones, Brian Jay\Biography\Ballantine Books\2013\585\
+
+First 5 books with at least 400 pages
+451492129\Brief Cases (The Dresden Files, #15.1)\Butcher, Jim\Fantasy\Ace\2018\516\
+451464400\Cold Days (The Dresden Files, #14)\Butcher, Jim\Fantasy\Penguin Group (USA)\2012\515\
+451464397\Skin Game (The Dresden Files, #15)\Butcher, Jim\Fantasy\Roc\2014\454\
+340893605\Incarceron (Incarceron, #1)\Fisher, Catherine\Fantasy\Hodder Children's Books\2007\458\
+340893613\Sapphique (Incarceron, #2)\Fisher, Catherine\Fantasy\Hodder Children's Books\2008\470\
+
+
+Process finished with exit code 0
