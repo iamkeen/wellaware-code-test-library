@@ -17,6 +17,6 @@
     - create new shelf and increment number in shelf's name
 
 - Books are ordered alphabetically first by author, then title. The first books in the order are placed on that genre’s shelf #1, when that shelf is full the next books in order go on that genre’s shelf #2, etc. When adding a book to a shelf that’s already full, books will get displaced to the next numbered shelf to maintain sort order.
-- need to sort books in shelves alphabetically
+    - need to sort books in shelves alphabetically
 
 - Only create the number of shelves necessary for all the books. There should not be any empty shelves in the library

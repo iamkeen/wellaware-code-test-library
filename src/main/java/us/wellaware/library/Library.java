@@ -1,26 +1,29 @@
 package us.wellaware.library;
-
 import java.util.List;
 
 public interface Library {
-    boolean addBookToShelf(long isbn, String title, String author, String genre, String publisher,
+    boolean addBookToShelf(String isbn, String title, String author, String genre, String publisher,
                         int publicationYear, int pageCount);
 
-    String getBookTitle(long isbn);
+    String getBookTitle(String isbn);
+
+    String getBookAuthor(String isbn);
+
+    String getBookInfo(String isbn);
 
     List<String> getShelfNames();
 
-    String findShelfNameForISBN(long isbn);
+    String findShelfNameForISBN(String isbn);
 
-    List<Long> getISBNsOnShelf(String shelfName);
+    List<String> getISBNsOnShelf(String shelfName);
 
-    List<Long> getISBNsForGenre(String genre, int limit);
+    List<String> getISBNsForGenre(String genre, int limit);
 
-    List<Long> getISBNsForAuthor(String author, int limit);
+    List<String> getISBNsForAuthor(String author, int limit);
 
-    List<Long> getISBNsForPublisher(String publisher, int limit);
+    List<String> getISBNsForPublisher(String publisher, int limit);
 
-    List<Long> getISBNsPublishedAfterYear(short publicationYear, int limit);
+    List<String> getISBNsPublishedAfterYear(short publicationYear, int limit);
 
-    List<Long> getISBNsWithMinimumPageCount(int minimumPageCount, int limit);
+    List<String> getISBNsWithMinimumPageCount(int minimumPageCount, int limit);
 }
