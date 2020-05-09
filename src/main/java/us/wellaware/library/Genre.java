@@ -1,13 +1,12 @@
 package us.wellaware.library;
-
 import java.util.*;
 
 public class Genre
 {
-    public ArrayList<Book> books = new ArrayList<Book>();
-    public String name;
-    public ArrayList<Shelf> shelves = new ArrayList<Shelf>();
-    public int numShelves;
+    private ArrayList<Book> books = new ArrayList<Book>();
+    private ArrayList<Shelf> shelves = new ArrayList<Shelf>();
+    private String name;
+    private int numShelves;
 
     public Genre(String name)
     {
@@ -15,8 +14,20 @@ public class Genre
         numShelves = 0;
     }
 
+    public ArrayList<Book> getBooks() {
+        return books;
+    }
+
+    public ArrayList<Shelf> getShelves() {
+        return shelves;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public void addBook(Book book, int maxShelfSize) {
-        //add book to genre
+        //add book to genre collection
         books.add(book);
         //sort books in genre
         Collections.sort(books);
@@ -32,11 +43,11 @@ public class Genre
         int bookCount = 0;
         Book currentBook;
         for (Shelf shelf : shelves) {
-            shelf.booksOnShelf.clear();
+            shelf.getBooksOnShelf().clear(); //clear or create a new shelf?
             for (int j = 0; j < maxShelfSize; j++) {
                 currentBook = books.get(bookCount);
                 //shelf.books.set(j, currentBook); doesn't work if element doesn't exist at index j
-                shelf.booksOnShelf.add(currentBook.isbn);
+                shelf.getBooksOnShelf().add(currentBook.getISBN());
                 bookCount++;
                 if (bookCount == books.size()) {
                     return;
@@ -53,8 +64,8 @@ public class Genre
 
     private void createShelf(Book book){
         numShelves++;
-        Shelf newShelf = new Shelf(book.genre, numShelves);
-        newShelf.booksOnShelf.add(book.isbn);
+        Shelf newShelf = new Shelf(book.getGenre(), numShelves);
+        newShelf.getBooksOnShelf().add(book.getISBN());
         shelves.add(newShelf);
     }
 }

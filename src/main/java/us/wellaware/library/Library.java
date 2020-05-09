@@ -1,5 +1,4 @@
 package us.wellaware.library;
-
 import java.util.List;
 
 public interface Library {

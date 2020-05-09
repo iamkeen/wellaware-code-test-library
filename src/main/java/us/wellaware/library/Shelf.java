@@ -1,17 +1,28 @@
 package us.wellaware.library;
-
 import java.util.*;
 
 public class Shelf
 {
-	public ArrayList<String> booksOnShelf = new ArrayList<String>();
-	public String genre;
-	public int number;
+	private ArrayList<String> booksOnShelf = new ArrayList<String>();
+	private String genre;
+	private int number;
 
 	public Shelf(String genre, int number)
 	{
 		this.genre = genre;
 		this.number = number;
+	}
+
+	public String getGenre(){
+		return genre;
+	}
+
+	public int getNumber(){
+		return number;
+	}
+
+	public ArrayList<String> getBooksOnShelf(){
+		return booksOnShelf;
 	}
 
 	public String toString()

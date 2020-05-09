@@ -1,7 +1,4 @@
 package us.wellaware.library;
-
-//import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.*;
 
 public class LibrarySimulation implements Library {
@@ -28,14 +25,14 @@ public class LibrarySimulation implements Library {
 
         for (Genre currentGenre : genres) {
             //if genre exists
-            if (currentGenre.name.equals(genre)) {
+            if (currentGenre.getName().equals(genre)) {
                     currentGenre.addBook(book, maxShelfSize);
                     return true;
             }
         }
 
         //create new genre if does not exist in library
-        Genre newGenre = new Genre(book.genre);
+        Genre newGenre = new Genre(book.getGenre());
         newGenre.addBook(book, maxShelfSize);
         genres.add(newGenre);
         return true;
@@ -43,14 +40,14 @@ public class LibrarySimulation implements Library {
 
     public String getBookTitle(String isbn) {
         if (allBooks.containsKey(isbn)){
-            return allBooks.get(isbn).title;
+            return allBooks.get(isbn).getTitle();
         }
         return "Error: ISBN not found in library.";
     }
 
     public String getBookAuthor(String isbn) {
         if (allBooks.containsKey(isbn)){
-            return allBooks.get(isbn).author;
+            return allBooks.get(isbn).getAuthor();
         }
         return "Error: ISBN not found in library.";
     }
@@ -65,7 +62,7 @@ public class LibrarySimulation implements Library {
     public List<String> getShelfNames() {
         List<String> shelfNames = new ArrayList<>();
         for (Genre genre : genres) {
-            for (Shelf shelf : genre.shelves){
+            for (Shelf shelf : genre.getShelves()){
                 shelfNames.add(shelf.toString());
             }
         }
@@ -75,12 +72,12 @@ public class LibrarySimulation implements Library {
     public String findShelfNameForISBN(String isbn) {
         if (allBooks.containsKey(isbn)){
             Book book = allBooks.get(isbn);
-            String bookGenre = book.genre;
+            String bookGenre = book.getGenre();
             for (Genre genre : genres){
-                if (genre.name.equals(bookGenre)){
+                if (genre.getName().equals(bookGenre)){
                     //only go through shelves of the book's genre
-                    for (Shelf shelf : genre.shelves){
-                        if (shelf.booksOnShelf.contains(isbn)) {
+                    for (Shelf shelf : genre.getShelves()){
+                        if (shelf.getBooksOnShelf().contains(isbn)) {
                             return shelf.toString();
                         }
                     }
@@ -94,9 +91,10 @@ public class LibrarySimulation implements Library {
     public List<String> getISBNsOnShelf(String shelfName) {
         List<String> isbnsOnShelf = new ArrayList<String>();
         for (Genre genre : genres) {
-            for (Shelf shelf : genre.shelves){
+            for (Shelf shelf : genre.getShelves()){
                 if (shelf.toString().equals(shelfName)) {
-                    isbnsOnShelf.addAll(shelf.booksOnShelf);
+                    isbnsOnShelf.addAll(shelf.getBooksOnShelf());
+                    return isbnsOnShelf;
                 }
             }
         }
@@ -109,9 +107,9 @@ public class LibrarySimulation implements Library {
         int limitCount = 0;
 
         for (Genre currentGenre : genres) {
-            if (currentGenre.name.equals(genre)) {
-                for (Book currentBook : currentGenre.books) {
-                    isbnsForGenre.add(currentBook.isbn);
+            if (currentGenre.getName().equals(genre)) {
+                for (Book currentBook : currentGenre.getBooks()) {
+                    isbnsForGenre.add(currentBook.getISBN());
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -129,9 +127,9 @@ public class LibrarySimulation implements Library {
         int limitCount = 0;
 
         for (Genre genre : genres) {
-            for (Book book : genre.books) {
-                if (book.author.equals(author)) {
-                    isbnsForAuthor.add(book.isbn);
+            for (Book book : genre.getBooks()) {
+                if (book.getAuthor().equals(author)) {
+                    isbnsForAuthor.add(book.getISBN());
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -149,9 +147,9 @@ public class LibrarySimulation implements Library {
         int limitCount = 0;
 
         for (Genre genre : genres) {
-            for (Book book : genre.books) {
-                if (book.publisher.equals(publisher)) {
-                    isbnsForPublisher.add(book.isbn);
+            for (Book book : genre.getBooks()) {
+                if (book.getPublisher().equals(publisher)) {
+                    isbnsForPublisher.add(book.getISBN());
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -169,9 +167,9 @@ public class LibrarySimulation implements Library {
         int limitCount = 0;
 
         for (Genre genre : genres) {
-            for (Book book : genre.books) {
-                if (book.publicationYear > publicationYear) {
-                    isbnsPublishedAfterYear.add(book.isbn);
+            for (Book book : genre.getBooks()) {
+                if (book.getPublicationYear() > publicationYear) {
+                    isbnsPublishedAfterYear.add(book.getISBN());
                     limitCount++;
 
                     if (limitCount == limit) {
@@ -189,9 +187,9 @@ public class LibrarySimulation implements Library {
         int limitCount = 0;
 
         for (Genre genre : genres) {
-            for (Book book : genre.books) {
-                if (book.pageCount >= minimumPageCount) {
-                    isbnsWithMinimumPagecount.add(book.isbn);
+            for (Book book : genre.getBooks()) {
+                if (book.getPageCount() >= minimumPageCount) {
+                    isbnsWithMinimumPagecount.add(book.getISBN());
                     limitCount++;
 
                     if (limitCount == limit) {
