@@ -6,7 +6,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-	    Library myLibrary = new LibrarySimulation(5);
+        int shelfSize = 10;
+	    Library myLibrary = new LibrarySimulation(shelfSize);
 
         File bookSampleData = new File("src\\main\\resources\\book_sample_data.csv");
 	    BufferedReader br = null;
@@ -66,11 +67,14 @@ public class Main {
             }
 
             //TEST for duplicate additions
-            myLibrary.addBookToShelf("440238153", "Do Androids Dream of Electric Sheep?", "Dick, Philip",
-                    "Science Fiction", "Ballantine Books", 1996, 244);
-            System.out.println();
+            if (myLibrary.addBookToShelf("332211", "Do Androids Dream of Electric Sheep?", "Dick, Philip",
+                    "Science Fiction", "Ballantine Books", 1996, 244)){
+                totalBooks++;
+            }
 
             //TESTS for Library's get functions
+            System.out.println("Total books added: " + totalBooks);
+            System.out.println("Shelf size: " + shelfSize);
             displayLibrary(myLibrary);
 
             for (String currentISBN : isbns){
