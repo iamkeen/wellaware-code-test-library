@@ -43,11 +43,19 @@ public class Genre
         int bookCount = 0;
         Book currentBook;
         for (Shelf shelf : shelves) {
-            shelf.getBooksOnShelf().clear(); //clear or create a new shelf?
+            //shelf.getBooksOnShelf().clear(); //clear or create a new shelf? //clear is O(n)
             for (int j = 0; j < maxShelfSize; j++) {
                 currentBook = books.get(bookCount);
-                //shelf.books.set(j, currentBook); doesn't work if element doesn't exist at index j
-                shelf.getBooksOnShelf().add(currentBook.getISBN());
+                //if shelf already has a book at that spot
+                if (j < shelf.getBooksOnShelf().size()){
+                    //replace book in that spot
+                    shelf.getBooksOnShelf().set(j, currentBook.getISBN());
+                }
+                //if the shelf has an empty spot
+                else {
+                    //add book to shelf
+                    shelf.getBooksOnShelf().add(currentBook.getISBN());
+                }
                 bookCount++;
                 if (bookCount == books.size()) {
                     return;

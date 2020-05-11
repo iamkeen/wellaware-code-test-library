@@ -203,22 +203,22 @@ public class LibrarySimulation implements Library {
             return Collections.emptyList();
         }
 
-        List<String> isbnsWithMinimumPagecount = new ArrayList<String>();
+        List<String> isbnsWithMinimumPageCount = new ArrayList<String>();
         int limitCount = 0;
 
         for (Genre genre : genres) {
             for (Book book : genre.getBooks()) {
                 if (book.getPageCount() >= minimumPageCount) {
-                    isbnsWithMinimumPagecount.add(book.getISBN());
+                    isbnsWithMinimumPageCount.add(book.getISBN());
                     limitCount++;
 
                     if (limitCount == limit) {
-                        return isbnsWithMinimumPagecount;
+                        return isbnsWithMinimumPageCount;
                     }
                 }
             }
         }
 
-        return isbnsWithMinimumPagecount;
+        return isbnsWithMinimumPageCount;
     }
 }
