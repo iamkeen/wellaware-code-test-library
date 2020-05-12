@@ -14,6 +14,8 @@ public class TestDriver {
             System.out.println(failure.toString());
         }
 
-        System.out.println(result.wasSuccessful());
+        if (result.wasSuccessful()) {
+            System.out.println("All tests passed successfully.");
+        }
     }
 }
