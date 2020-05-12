@@ -133,6 +133,7 @@ public class LibraryTest {
         assertEquals(myLibrary.getISBNsOnShelf("Cooking - 1"), Arrays.asList("684818701"));
         assertEquals(myLibrary.getISBNsOnShelf("Humor - 1"), Arrays.asList("70064520"));
         assertEquals(myLibrary.getISBNsOnShelf("Science Fiction - 3"), Collections.emptyList());
+        assertEquals(myLibrary.getISBNsOnShelf("Fantasy - 1"), Collections.emptyList());
     }
 
     @Test
@@ -194,6 +195,7 @@ public class LibraryTest {
         assertTrue(myLibrary.addBookToShelf("609600672", "Dave Barry is not taking this sitting down!", "Barry, Dave",
                 "Humor", "Crown Publishers", 2000, 229));
         assertEquals(myLibrary.getISBNsForGenre("Science Fiction", 0), Collections.emptyList());
+        assertEquals(myLibrary.getISBNsForGenre("Science Fiction", -5), Collections.emptyList());
         assertEquals(myLibrary.getISBNsForGenre("Nonfiction", 10), Collections.emptyList());
         assertEquals(myLibrary.getISBNsForGenre("Science Fiction", 5), Arrays.asList("517542095", "345404475"));
         assertEquals(myLibrary.getISBNsForGenre("Science Fiction", 1), Arrays.asList("517542095"));
@@ -219,6 +221,7 @@ public class LibraryTest {
         assertTrue(myLibrary.addBookToShelf("609600672", "Dave Barry is not taking this sitting down!", "Barry, Dave",
                 "Humor", "Crown Publishers", 2000, 229));
         assertEquals(myLibrary.getISBNsForAuthor("Adams, Douglas", 0), Collections.emptyList());
+        assertEquals(myLibrary.getISBNsForAuthor("Adams, Douglas", -5), Collections.emptyList());
         assertEquals(myLibrary.getISBNsForAuthor("Icarangal, Keenan", 10), Collections.emptyList());
         assertEquals(myLibrary.getISBNsForAuthor("Adams, Douglas", 5), Arrays.asList("517542095", "517542096"));
         assertEquals(myLibrary.getISBNsForAuthor("Dick, Philip", 1), Arrays.asList("345404475"));
@@ -244,6 +247,7 @@ public class LibraryTest {
         assertTrue(myLibrary.addBookToShelf("609600672", "Dave Barry is not taking this sitting down!", "Barry, Dave",
                 "Humor", "Crown Publishers", 2000, 229));
         assertEquals(myLibrary.getISBNsForPublisher("Harmony Books", 0), Collections.emptyList());
+        assertEquals(myLibrary.getISBNsForPublisher("Harmony Books", -5), Collections.emptyList());
         assertEquals(myLibrary.getISBNsForPublisher("Penguin", 10), Collections.emptyList());
         assertEquals(myLibrary.getISBNsForPublisher("Harmony Books", 5), Arrays.asList("517542095", "517542096"));
         assertEquals(myLibrary.getISBNsForPublisher("Ballantine Books", 1), Arrays.asList("345404475"));
@@ -268,6 +272,7 @@ public class LibraryTest {
                 "Humor", "Crown Publishers", 2000, 229));
         assertEquals(myLibrary.getISBNsPublishedAfterYear((short)1900, 0), Collections.emptyList());
         assertEquals(myLibrary.getISBNsPublishedAfterYear((short)2010, 10), Collections.emptyList());
+        assertEquals(myLibrary.getISBNsPublishedAfterYear((short)1900, -5), Collections.emptyList());
         assertEquals(myLibrary.getISBNsPublishedAfterYear((short)1900, 10), Arrays.asList("517542095", "345404475", "684818701", "609600672", "70064520"));
         assertEquals(myLibrary.getISBNsPublishedAfterYear((short)1900, 1), Arrays.asList("517542095"));
         assertEquals(myLibrary.getISBNsPublishedAfterYear((short)1990, 10), Arrays.asList("345404475", "684818701", "609600672"));
@@ -291,6 +296,7 @@ public class LibraryTest {
         assertTrue(myLibrary.addBookToShelf("609600672", "Dave Barry is not taking this sitting down!", "Barry, Dave",
                 "Humor", "Crown Publishers", 2000, 229));
         assertEquals(myLibrary.getISBNsWithMinimumPageCount(200, 0), Collections.emptyList());
+        assertEquals(myLibrary.getISBNsWithMinimumPageCount(200, -5), Collections.emptyList());
         assertEquals(myLibrary.getISBNsWithMinimumPageCount(2000, 10), Collections.emptyList());
         assertEquals(myLibrary.getISBNsWithMinimumPageCount(100, 10), Arrays.asList("517542095", "345404475", "684818701", "609600672", "70064520"));
         assertEquals(myLibrary.getISBNsWithMinimumPageCount(100, 3), Arrays.asList("517542095", "345404475", "684818701"));

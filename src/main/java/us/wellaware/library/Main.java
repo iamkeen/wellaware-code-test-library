@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        int shelfSize = 10;
+        int shelfSize = 5;
 	    Library myLibrary = new LibrarySimulation(shelfSize);
 
         File bookSampleData = new File("src\\main\\resources\\book_sample_data.csv");
