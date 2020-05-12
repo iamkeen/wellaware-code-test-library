@@ -43,7 +43,7 @@ public class Genre
         int bookCount = 0;
         Book currentBook;
         for (Shelf shelf : shelves) {
-            //shelf.getBooksOnShelf().clear(); //clear or create a new shelf? //clear is O(n)
+            //shelf.getBooksOnShelf().clear(); //clear is O(n)
             for (int j = 0; j < maxShelfSize; j++) {
                 currentBook = books.get(bookCount);
                 //if shelf already has a book at that spot
